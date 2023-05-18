@@ -7,7 +7,7 @@ case "$chosen" in
 	"  Restart") reboot ;;
 	"  Suspend") systemctl suspend-then-hibernate ;;
 	"  Hibernate") systemctl hibernate ;;
-	"  Log Out") bspc quit ;;
-	"  Lock") betterlockscreen -l ;;
+	"  Log Out") i3-msg exit ;;
+	"󰗼  Lock") betterlockscreen -l ;;
 	*) exit 1 ;;
 esac
