@@ -6,7 +6,7 @@ Prima di usare questi dotfiles installare
 
 * Da repository ufficiale:
 ```
-papirus-icon-theme picom polybar dunst pavucontrol starship playerctl pamixer numlockx dbus-python
+papirus-icon-theme picom polybar dunst pavucontrol starship playerctl pamixer numlockx dbus-python polkit-gnome
 
 ```
 * Da AUR 
