@@ -1,0 +1,22 @@
+swipe:
+  3: 
+    left: 
+      command: 'i3-msg workspace next'
+    right: 
+      command: 'i3-msg workspace prev'
+ #  up: 
+ #    sendkey: 'LEFTALT+LEFTSHIFT+TAB'
+  #  down: 
+      #      sendkey: 'LEFTALT+TAB'
+#pinch:
+#  in:
+#    sendkey: 'LEFTALT+LEFTSHIFT+TAB'
+#  out:
+
+threshold:
+  swipe: 0.5
+  pinch: 0.2
+
+interval:
+  swipe: 0.2
+  pinch: 0.2
